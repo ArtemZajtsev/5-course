@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Maze Generator</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<center>
+			<form name=setsize method=get action="javascript:buildMaze(document.setsize.width.value, document.setsize.height.value);">
+				<table>
+					<tr>
+						<td>Width (5-20)</td>
+						<td><input type=text name=width size=4></td>
+					</tr>
+					<tr>
+						<td>Height(5-20)</td>
+						<td><input type=text name=height size=4></td>
+					</tr>
+				</table>
+				<input type=submit value="Enter">
+			</form>
+		</center>
+		<script src="maze.js"></script>
+	</body>
+</html>
